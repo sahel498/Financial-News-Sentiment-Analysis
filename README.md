@@ -22,8 +22,8 @@ A production-ready application that analyzes sentiment in financial news for sel
 - **Custom Text Analysis**: Analyze your own financial text
 - **Data Export**: Download analysis results as CSV
 # 🚀 Deployment Options
-Local Development
-# Install dependencies
+**Local Development**
+ `# Install dependencies
 pip install -r project_requirements.txt
 
 # Start the backend server
