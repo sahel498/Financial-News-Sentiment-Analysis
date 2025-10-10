@@ -2,7 +2,7 @@
 A production-ready application that analyzes sentiment in financial news for selected stock tickers. The system uses a rule-based analysis approach with MLOps capabilities to classify news sentiment as positive, neutral, or negative, and presents the results in an interactive dashboard.
 
 # 🧠 Key Features
-🔄 Backend API
+**🔄 Backend API**
 - **Multi-Source News Data**: Retrieves financial news from NewsAPI.org with Excel fallback
 - **Advanced Sentiment Analysis**: Rule-based analysis with model versioning and metrics tracking
 - **Comprehensive API Endpoints**:
@@ -14,14 +14,14 @@ A production-ready application that analyzes sentiment in financial news for sel
 - **Structured Logging**: JSON-formatted logs for better observability
 - **Error Handling**: Graceful error recovery and fallback mechanisms
 # 📈 Frontend Dashboard
-Interactive Controls: Select stock tickers and custom date ranges
-Advanced Date Selection: Choose preset periods or custom date ranges
-Real-time Sentiment Overview: Visual metrics for each ticker
-Dynamic Visualizations: Sentiment distribution and trends over time
-Paginated News Display: Browse headlines with sentiment indicators
-Custom Text Analysis: Analyze your own financial text
-Data Export: Download analysis results as CSV
-🚀 Deployment Options
+- **Interactive Controls**: Select stock tickers and custom date ranges
+- **Advanced Date Selection**: Choose preset periods or custom date ranges
+- **Real-time Sentiment Overview**: Visual metrics for each ticker
+- **Dynamic Visualizations**: Sentiment distribution and trends over time
+- **Paginated News Display**: Browse headlines with sentiment indicators
+- **Custom Text Analysis**: Analyze your own financial text
+- **Data Export**: Download analysis results as CSV
+# 🚀 Deployment Options
 Local Development
 # Install dependencies
 pip install -r project_requirements.txt
