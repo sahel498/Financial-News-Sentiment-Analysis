@@ -136,7 +136,7 @@ Key configuration options include:
  - **A/B Testing**: Framework for comparing model versions
  - **Observability**: Advanced logging and metrics collection
 # 📚 Documentation
-Project_Documentation.md: Detailed technical documentation
+- [Project_Documentation.md](https://github.com/sahel498/Financial-News-Sentiment-Analysis/blob/main/Project_Documentation.md): Detailed technical documentation
 - [Render_Deployment_Guide.md](https://github.com/sahel498/Financial-News-Sentiment-Analysis/blob/main/Render_Deployment_Guide.md): Step-by-step Render.com deployment guide
-🌐 Live Demo
+# 🌐 Live Demo
 Deploy your own instance on Render.com in minutes following our deployment guide.
