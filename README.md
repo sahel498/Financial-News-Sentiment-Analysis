@@ -44,16 +44,18 @@ streamlit run run_frontend.py
 docker-compose up -d
 ```
 **Cloud Deployment (Render.com)**
-The project is fully configured for one-click deployment on Render.com using `render.yaml`. See Render_Deployment_Guide.md for detailed instructions.
+The project is fully configured for one-click deployment on Render.com using `render.yaml`. See <a href="https://github.com/sahel498/Financial-News-Sentiment-Analysis/blob/main/Render_Deployment_Guide.md">Render_Deployment_Guide.md</a>
+for detailed instructions.
 
-- HTML Tag : <a href="Render_Deployment_Guide.md ">See for detailed instructions.</a>
-
-Kubernetes Deployment
+**Kubernetes Deployment**
 The project includes Kubernetes configurations for enterprise deployment:
 
+```
 # Apply Kubernetes configurations
 kubectl apply -f kubernetes/
-🏗️ Project Structure
+```
+# 🏗️ Project Structure
+```
 financial-news-sentiment/
 ── backend/                 # Backend API code
 │   ├── app/                 # Application modules
@@ -90,47 +92,50 @@ financial-news-sentiment/
 ├── utils.py                 # Shared utility functions
 ├── Project_Documentation.md # Detailed technical documentation
 └── Render_Deployment_Guide.md # Deployment guide
-📦 Dependencies
-Backend Dependencies:
+```
+# 📦 Dependencies
+- Backend Dependencies:
 
-FastAPI (API framework)
-Uvicorn (ASGI server)
-Requests (HTTP client)
-Pandas (Data processing)
-Python Standard Library
-Frontend Dependencies:
+  - FastAPI (API framework)
+  - Uvicorn (ASGI server)
+  - Requests (HTTP client)
+  - Pandas (Data processing)
+  - Python Standard Library
+    
+- Frontend Dependencies:
 
-Streamlit (Interactive dashboard)
-Plotly (Interactive visualizations)
-Pandas (Data processing)
-Requests (API client)
-🔧 Configuration
+  - Streamlit (Interactive dashboard)
+  - Plotly (Interactive visualizations)
+  - Pandas (Data processing)
+  - Requests (API client)
+# 🔧 Configuration
 The application supports multiple configuration methods:
 
-Environment Variables: Configure via .env file or system environment variables
-Docker Environment: Set in docker-compose.yml or Dockerfile
-Kubernetes ConfigMaps: Set via kubernetes/configmap.yaml
-Render.com Environment: Configure through the Render dashboard
+1. **Environment Variables**: Configure via .env file or system environment variables
+2. **Docker Environment**: Set in docker-compose.yml or Dockerfile
+3. **Kubernetes ConfigMaps**: Set via kubernetes/configmap.yaml
+4. **Render.com Environment**: Configure through the Render dashboard
+
 Key configuration options include:
 
-NEWS_API_KEY: API key for NewsAPI.org integration
-PORT: Port for backend service (default: 8000)
-LOG_LEVEL: Logging verbosity (INFO, DEBUG, etc.)
-LOG_FORMAT: Log format (text or JSON)
-MODEL_VERSION: Version of sentiment analysis model
-🔒 Security Features
-Container Security: Non-root users in Docker containers
-Secret Management: Environment variables for sensitive data
-Token Passing: Secure token passing between services
-Input Validation: Request validation and sanitization
-Error Handling: Prevents sensitive information disclosure
-📊 MLOps Capabilities
-Model Versioning: Track model versions and configurations
-Performance Metrics: Latency and error rate tracking
-Model Registry: Store and manage model artifacts
-A/B Testing: Framework for comparing model versions
-Observability: Advanced logging and metrics collection
-📚 Documentation
+ - `NEWS_API_KEY`: API key for NewsAPI.org integration
+ - `PORT`: Port for backend service (default: 8000)
+ - `LOG_LEVEL`: Logging verbosity (INFO, DEBUG, etc.)
+ - `LOG_FORMAT`: Log format (text or JSON)
+ - `MODEL_VERSION`: Version of sentiment analysis model
+# 🔒 Security Features
+ - **Container Security**: Non-root users in Docker containers
+ - **Secret Management**: Environment variables for sensitive data
+ - **Token Passing**: Secure token passing between services
+ - **Input Validation**: Request validation and sanitization
+ - **Error Handling**: Prevents sensitive information disclosure
+# 📊 MLOps Capabilities
+ - **Model Versioning**: Track model versions and configurations
+ - **Performance Metrics**: Latency and error rate tracking
+ - **Model Registry**: Store and manage model artifacts
+ - **A/B Testing**: Framework for comparing model versions
+ - **Observability**: Advanced logging and metrics collection
+# 📚 Documentation
 Project_Documentation.md: Detailed technical documentation
 Render_Deployment_Guide.md: Step-by-step Render.com deployment guide
 🌐 Live Demo
