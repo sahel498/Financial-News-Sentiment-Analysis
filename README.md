@@ -23,19 +23,28 @@ A production-ready application that analyzes sentiment in financial news for sel
 - **Data Export**: Download analysis results as CSV
 # 🚀 Deployment Options
 **Local Development**
- `# Install dependencies
+
+```
+
+#Install dependencies
 pip install -r project_requirements.txt
 
-# Start the backend server
+#Start the backend server
 python run_backend.py
 
-# Start the frontend dashboard in a separate terminal
+#Start the frontend dashboard in a separate terminal
 streamlit run run_frontend.py
-Docker Deployment
+
+ ```
+
+
+**Docker Deployment**
+```
 # Build and run with Docker Compose
 docker-compose up -d
-Cloud Deployment (Render.com)
-The project is fully configured for one-click deployment on Render.com using render.yaml. See Render_Deployment_Guide.md for detailed instructions.
+```
+**Cloud Deployment (Render.com)**
+The project is fully configured for one-click deployment on `Render.com using render.yaml`. See Render_Deployment_Guide.md for detailed instructions.
 
 Kubernetes Deployment
 The project includes Kubernetes configurations for enterprise deployment:
